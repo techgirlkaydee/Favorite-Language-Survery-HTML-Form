@@ -3,6 +3,7 @@
     <head>
         <meta charset=""utf-8">
         <title>Survey</title>
+        <link rel="stylesheet" href="layout.css">
     </head>
     <body>
         <h1>Favorite Programming Language</h1>
@@ -11,28 +12,35 @@
                 <legend>Add user</legend>
 
                 <div>
-                    <label for="firstName">First name</label>
-                    <input type="text" id="firstName" name="first_name"
+                    <label class="label" for="firstName">First name:</label> <br>
+                    <input class="input" type="text" id="firstName" name="first_name"
                 </div>
 
                 <div>
-                    <label for="lastName">Last name</label>
+                    <label for="lastName">Last name:</label> <br>
                     <input type="text" id="lastName" name="last_name">
                 </div>
 
                 <div>
-                    <label for="email">Email</label>
+                    <label for="email">Email:</label> <br>
                     <input type="email" id="email" name="email_address">
                 </div>
 
-                <div>
-                    <label for="status">Status</label>
+            <div class="two-col">
+                <div class="col1">
+                    <label for="status">Status:</label> <br>
                     <select id="status" name="user_status">
                         <option value="student">Student</option>
                         <option value="teacher">Teacher</option>
                         <option value="guest">Guest</option>
                     </select>
                 </div>
+                
+                <div class="col2">
+                    <label for="date">Date:</label> <br>
+                    <input type="date" id="date" name="date">
+                </div>
+            </div> 
 
                 <div>
                     <p>Choose your favorite programming language:</p>
@@ -45,23 +53,21 @@
                 </div>
 
                 <div>
-                    <p><label for="comments">Comments:</label></p>
+                    <p><label for="comments">Additional Comments:</label></p>
                     <textarea> </textarea>
-                </div>
-
-                <div>
-                    <p><label for="date">Date</label></p>
-                    <input type="date" id="date" name="date">
                 </div>
 
                 <div>
                     <p> </p>
                     <input type="checkbox" id="signUp" name="signUp"
-                    <label for="signUp">Sign up for newsletter</label><br>
+                    <label for="signUp">Sign up for newsletter</label> <br>
                     <input type="checkbox" id="agree" name="agree"
-                    <label for="agree">Agree to terms and conditions</label>
-                    <br>
+                    <label for="agree">Agree to terms and conditions</label> <br>
                     <input type="submit" value="Submit">
+                </div>
+                <br>
+
+                <div class="logo">
                 </div>
 
             </fieldset>

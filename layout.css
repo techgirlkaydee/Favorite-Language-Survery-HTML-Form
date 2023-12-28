@@ -1,0 +1,68 @@
+body {
+    background-color: azure;
+}
+
+
+
+h1 {
+    font-size: 42px ;
+    font-family:"Georgia", sans-serif ;
+    padding: ;
+    margin: ;
+    font-weight: bolder ;
+    text-decoration: underline ;
+    text-align: center;
+    color: black ;
+    background-color:azure ;
+}
+
+
+
+fieldset {
+    border: 1px solid rgb(16, 16, 160);
+    width: 500px;
+    height: 600px;
+    margin: auto;
+}
+
+
+form {
+    text-align:center
+}
+
+
+.two-col {
+    overflow: hidden;
+}
+
+.two-col .col1,
+.two-col .col2 {
+    width: 50%;
+}
+
+.two-col .col1 {
+    float: left;
+}
+
+.two-col .col2 {
+    float: right;
+}
+
+.two-col label {
+    display: ;
+}
+
+
+
+
+
+.logo {
+    background-size: cover;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: rgb(31, 151, 151) ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px ;
+    width: 100px ;
+    
